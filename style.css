@@ -1,0 +1,66 @@
+:root {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+  }
+  
+  .search-heading {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  #search-box {
+    display: block;
+    width: 600px;
+    padding: 1.1rem 3rem;
+    border-radius: 2rem;
+  }
+  
+  #search-box:focus {
+    outline: none;
+    border: 3px solid orange;
+    font-size: 1.1rem;
+  }
+  
+  .output {
+    margin-top: 3rem;
+    color: white;
+  }
+  
+  .ul-list {
+    list-style: none;
+    border: 1px solid white;
+    padding: 10px;
+  }
+  
+  .search-content-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+  }
+  
+  #img-cont {
+    box-sizing: border-box;
+    max-width: 15rem;
+    max-height: 15rem;
+  }
+  
+  .list-item-mrpprice {
+    text-decoration: line-through;
+  }
